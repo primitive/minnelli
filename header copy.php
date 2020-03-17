@@ -4,7 +4,7 @@
  *
  * Displays all of the <head> section and everything up till <div id="content">
  *
- * @package understrap-child
+ * @package understrap
  */
 
 // Exit if accessed directly.
@@ -17,11 +17,21 @@ $container = get_theme_mod( 'understrap_container_type' );
 <head>
 	<meta charset="<?php bloginfo( 'charset' ); ?>">
 	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<meta name="theme-color" content="#000000" />
 	<link rel="profile" href="http://gmpg.org/xfn/11">
+
+	<!--
+    <link rel="icon" href="./favicon.ico" />
+    <link rel="apple-touch-icon" href="./logo192.png" />
+	<link rel="manifest" href="./manifest.json" />
+	-->
+
+    <!-- <title>New Website Under Construction - Primitive Digital</title> -->
+
 	<?php wp_head(); ?>
 </head>
 
-<body <?php body_class(); ?>> 
+<body <?php body_class(); ?> <?php understrap_body_attributes(); ?>>
 <?php do_action( 'wp_body_open' ); ?>
 <div class="site" id="page">
 
