@@ -27,7 +27,8 @@ $container = get_theme_mod( 'understrap_container_type' );
 
 					<div class="site-info">
 
-						<?php understrap_site_info(); ?>
+						<!--  php understrap_site_info(); ?> -->
+						<p>Website lovingly crafted by <a href="https://primitivedigital.uk" alt="Primitive Digital - Makers of techie things" title="Primitive Digital - Webby People" >Primitive Digital</a></p>
 
 					</div><!-- .site-info -->
 

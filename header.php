@@ -39,6 +39,7 @@ $container = get_theme_mod( 'understrap_container_type' );
 
 					<!-- Your site title as branding in the menu -->
 					<?php if ( ! has_custom_logo() ) { ?>
+						
 
 						<?php if ( is_front_page() && is_home() ) : ?>
 
