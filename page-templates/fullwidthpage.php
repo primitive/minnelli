@@ -18,11 +18,9 @@ $container = get_theme_mod( 'understrap_container_type' );
 
 <div class="wrapper" id="full-width-page-wrapper">
 
-	<div class="<?php echo esc_attr( $container ); ?>" id="content">
+	<div id="content">
 
-		<div class="row">
 
-			<div class="col-md-12 content-area" id="primary">
 
 				<main class="site-main" id="main" role="main">
 
@@ -30,7 +28,7 @@ $container = get_theme_mod( 'understrap_container_type' );
 
 				<div id="root"></div><!-- #root -->
 
-				<script>!function (e) { function r(r) { for (var n, u, l = r[0], a = r[1], p = r[2], c = 0, s = []; c < l.length; c++)u = l[c], Object.prototype.hasOwnProperty.call(o, u) && o[u] && s.push(o[u][0]), o[u] = 0; for (n in a) Object.prototype.hasOwnProperty.call(a, n) && (e[n] = a[n]); for (f && f(r); s.length;)s.shift()(); return i.push.apply(i, p || []), t() } function t() { for (var e, r = 0; r < i.length; r++) { for (var t = i[r], n = !0, l = 1; l < t.length; l++) { var a = t[l]; 0 !== o[a] && (n = !1) } n && (i.splice(r--, 1), e = u(u.s = t[0])) } return e } var n = {}, o = { 1: 0 }, i = []; function u(r) { if (n[r]) return n[r].exports; var t = n[r] = { i: r, l: !1, exports: {} }; return e[r].call(t.exports, t, t.exports, u), t.l = !0, t.exports } u.m = e, u.c = n, u.d = function (e, r, t) { u.o(e, r) || Object.defineProperty(e, r, { enumerable: !0, get: t }) }, u.r = function (e) { "undefined" != typeof Symbol && Symbol.toStringTag && Object.defineProperty(e, Symbol.toStringTag, { value: "Module" }), Object.defineProperty(e, "__esModule", { value: !0 }) }, u.t = function (e, r) { if (1 & r && (e = u(e)), 8 & r) return e; if (4 & r && "object" == typeof e && e && e.__esModule) return e; var t = Object.create(null); if (u.r(t), Object.defineProperty(t, "default", { enumerable: !0, value: e }), 2 & r && "string" != typeof e) for (var n in e) u.d(t, n, function (r) { return e[r] }.bind(null, n)); return t }, u.n = function (e) { var r = e && e.__esModule ? function () { return e.default } : function () { return e }; return u.d(r, "a", r), r }, u.o = function (e, r) { return Object.prototype.hasOwnProperty.call(e, r) }, u.p = "./"; var l = this["webpackJsonp@primitvedigital/mycard"] = this["webpackJsonp@primitvedigital/mycard"] || [], a = l.push.bind(l); l.push = r, l = l.slice(); for (var p = 0; p < l.length; p++)r(l[p]); var f = a; t() }([])</script>
+				<script>!function (e) { function t(t) { for (var n, i, l = t[0], a = t[1], p = t[2], c = 0, s = []; c < l.length; c++)i = l[c], Object.prototype.hasOwnProperty.call(o, i) && o[i] && s.push(o[i][0]), o[i] = 0; for (n in a) Object.prototype.hasOwnProperty.call(a, n) && (e[n] = a[n]); for (f && f(t); s.length;)s.shift()(); return u.push.apply(u, p || []), r() } function r() { for (var e, t = 0; t < u.length; t++) { for (var r = u[t], n = !0, l = 1; l < r.length; l++) { var a = r[l]; 0 !== o[a] && (n = !1) } n && (u.splice(t--, 1), e = i(i.s = r[0])) } return e } var n = {}, o = { 1: 0 }, u = []; function i(t) { if (n[t]) return n[t].exports; var r = n[t] = { i: t, l: !1, exports: {} }; return e[t].call(r.exports, r, r.exports, i), r.l = !0, r.exports } i.m = e, i.c = n, i.d = function (e, t, r) { i.o(e, t) || Object.defineProperty(e, t, { enumerable: !0, get: r }) }, i.r = function (e) { "undefined" != typeof Symbol && Symbol.toStringTag && Object.defineProperty(e, Symbol.toStringTag, { value: "Module" }), Object.defineProperty(e, "__esModule", { value: !0 }) }, i.t = function (e, t) { if (1 & t && (e = i(e)), 8 & t) return e; if (4 & t && "object" == typeof e && e && e.__esModule) return e; var r = Object.create(null); if (i.r(r), Object.defineProperty(r, "default", { enumerable: !0, value: e }), 2 & t && "string" != typeof e) for (var n in e) i.d(r, n, function (t) { return e[t] }.bind(null, n)); return r }, i.n = function (e) { var t = e && e.__esModule ? function () { return e.default } : function () { return e }; return i.d(t, "a", t), t }, i.o = function (e, t) { return Object.prototype.hasOwnProperty.call(e, t) }, i.p = "./"; var l = this["webpackJsonp@primitvedigital/shaunknowles"] = this["webpackJsonp@primitvedigital/shaunknowles"] || [], a = l.push.bind(l); l.push = t, l = l.slice(); for (var p = 0; p < l.length; p++)t(l[p]); var f = a; r() }([])</script>
 					
 					<!-- 
 						<script src="/static/js/2.d51db097.chunk.js"></script>
@@ -39,9 +37,6 @@ $container = get_theme_mod( 'understrap_container_type' );
 
 				</main><!-- #main -->
 
-			</div><!-- #primary -->
-
-		</div><!-- .row end -->
 
 	</div><!-- #content -->
 
