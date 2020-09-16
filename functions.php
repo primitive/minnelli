@@ -30,9 +30,9 @@ function theme_enqueue_styles() {
     wp_enqueue_style( 'build-css', get_stylesheet_directory_uri() . '/build/static/css/main.24573955.chunk.css' );
 
     wp_enqueue_script( 'react', get_template_directory_uri() . '/js/react.js' );
-    wp_enqueue_script( 'build-js', get_stylesheet_directory_uri() . '/build/static/js/2.c817d861.chunk.js', array ( 'jquery' ) );
+    wp_enqueue_script( 'build-js', get_stylesheet_directory_uri() . '/build/static/js/2.4bc486c5.chunk.js', array ( 'jquery' ) );
 
-    wp_enqueue_script( 'main-js', get_stylesheet_directory_uri() . '/build/static/js/main.21d4bca5.chunk.js', array ( 'jquery' ) );
+    wp_enqueue_script( 'main-js', get_stylesheet_directory_uri() . '/build/static/js/main.2fc2b883.chunk.js', array ( 'jquery' ) );
 
     if ( is_singular() && comments_open() && get_option( 'thread_comments' ) ) {
         wp_enqueue_script( 'comment-reply' );
